@@ -81,7 +81,7 @@ score following), and to win over the community of prospective users,
 any such tool will need to represent that community's analytical ideas
 in a natural and germane way with minimal UI friction.
 
-// F: I would also mention similar software like AudioTimeline, Dezrann, etc and what TiLIA offers that they do not have. 
+// F: I would also mention similar software like AudioTimeline, Dezrann, etc and what TiLIA offers that they do not have. Mostly copy and paste from the HCI paper.
 
 In response to these challenges (user-friendly design, interoperable
 formats, real-time interactivity ... ), we present 'TiLiA': a timeline
