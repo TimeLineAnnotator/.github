@@ -11,7 +11,7 @@ authors:
     orcid: https://orcid.org/0000-0002-9965-042X
     equal-contrib: true
     affiliation: 1
-  - name: Anne Foo
+  - name: Anne R. E. Foo
     orcid: https://orcid.org/0009-0003-9839-473X
     equal-contrib: true
     affiliation: 2
@@ -39,7 +39,9 @@ bibliography: paper.bib
 
 # Statement of need
 
-Visual analyses of music have proven to be an enduringly popular, effective, and versatile tool for conveying a variety of musical ideas. As the famous adage goes: 'a picture is worth a thousand words'. These analytical images are primarily connected to the *analysis* rather than the *music*, thus making them readily useful not only for the already visual sources of notated music, but also for the much broader range of musical styles and repertoires that are transmitted without the use of notation.
+Visual analyses of music have proven to be an enduringly popular, effective, and versatile tool for conveying a variety of musical ideas. [^0] As the famous adage goes: 'a picture is worth a thousand words'. These analytical images are primarily connected to the *analysis* rather than the *music*, thus making them readily useful not only for the already visual sources of notated music, but also for the much broader range of musical styles and repertoires that are transmitted without the use of notation.
+
+[^0]: See @isaacson:2023 for a survey of this long history.
 
 Whatever potential a *static* image has, an *interactive* one offers considerably more. Formal analysis is one of the clearest beneficiaries of the visual summary of music. Form can be hard to parse (especially in real-time) but is often easy to understand in relatively simple, at-a-glance summaries.
 
