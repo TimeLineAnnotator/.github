@@ -41,15 +41,12 @@ bibliography: paper.bib
 
 Visual analyses of music have proven to be an enduringly popular, effective, and versatile tool for conveying a variety of musical ideas. As the famous adage goes: 'a picture is worth a thousand words'. These analytical images are primarily connected to the *analysis* rather than the *music*, thus making them readily useful not only for the already visual sources of notated music, but also for the much broader range of musical styles and repertoires that are transmitted without the use of notation.
 
-Whatever potential a *static* image has, an *interactive* one offers considerably more. Formal analysis is one of the clearest beneficiaries of the visual summary of music. Form can be hard to parse (especially in real-time) but is often easy to understand in relatively simple, at-a-glance summaries. Though some applications provide basic annotation tools — from those really designed for score and/or audio editing, to those specifically aimed at the task — they typically offer limited functionality and adoption by the wider community has been minimal.
+Whatever potential a *static* image has, an *interactive* one offers considerably more. Formal analysis is one of the clearest beneficiaries of the visual summary of music. Form can be hard to parse (especially in real-time) but is often easy to understand in relatively simple, at-a-glance summaries.
 
-Overall, musical scholarship has not yet made the leap into this
-technological space with any degree of decisiveness or consistency.
-Despite some notable exceptions, even most visually minded music
-analyses are consigned to static images embedded in print (or in
-e-copies at best) and not subject to the expectations for _fair_,
-open-source data sharing that are now *de rigueur* in other fields. Even
-among the more computationally inclined communities, there has been little progress made on the coordination of standards and corpora for formal analysis.
+Save for a few exceptions [@gotham:2019], musical scholarship has not yet made the leap into this technological space with any degree of decisiveness or consistency. 
+Even most visually minded music analyses are consigned to static images embedded in print (or in e-copies at best) and not subject to the expectations for _fair_,
+open-source data sharing that are now *de rigueur* in other fields. 
+Still among the more computationally inclined communities, there has been little progress made on the coordination of standards and corpora for formal analysis.
 
 In today's digital age, we have come to expect certain basic interactive
 features across visual interfaces, such as **resizing**
@@ -57,7 +54,13 @@ content to fit the window, keyboard shortcuts, undo/redo functionality, and so o
 expectations, such as **real-time synchronisation** (a.k.a., audio or
 score following). Any tool that aims to win over users effectively must present analytical ideas naturally and intuitively, with minimal friction in the user interface.
 
-// F: I would also mention similar software like AudioTimeline, Dezrann, etc and what TiLIA offers that they do not have. Mostly copy and paste from the HCI paper.
+While one _can_ appropriate tools (which primary purpose is editing scores or audio) for creating visual analyses, [^1] [^2] the current range of tools dedicated to the task typically offer limited functionality and their uptake by the wider community haws been minimal. [^3]
+
+[^1]: The music notation software _Sibelius_, for instance, has offered a timeline since c.2019 with bar numbers and rudimentary checkpoints for changes to time and key signatures, presumably because they are possible indicators of section breaks. Peebles [@peebles:2013] discusses how to use an audio editor (_Audacity_) in a similar way to the tools discussed here.
+
+[^2]: Additionally, websites like _Edirom Online_ [@rowenstrunk:2014], _Listen Here!_ [@weigl:2023] and _mei-friend_ [@goebl:2024] support the digital annotation of scores, not specific to analysis. 
+
+[^3]: Yorgason's _Audio Timeliner_ [@yorgason:2018], based on the original _Variations Audio Timeliner_ [@notess:2004], is notable for capturing the needs of its users with its simple design. _Dezrann_ [@giraud:2018] is another noteworthy, actively maintained website that allows the alignment of score data on top of annotation. 
 
 In response to these challenges (user-friendly design, interoperable
 formats, real-time interactivity ... ), we present 'TiLiA': a timeline
@@ -83,6 +86,7 @@ These timelines each contain one or more *component types*
 *properties* to convey information including comments, colour and labels.
 
 // Add an image of the UI here
+<!-- ![Excerpt of a TiLiA analysis.\label{fig:example}](figure.png) -->
 
 Currently, there are six types of timelines:
 - **Audiowave timelines**, for displaying amplitude graphs
@@ -121,3 +125,5 @@ storage of analysis, but also to support the
 still-rare practice of analytical *collaboration* and structured
 *searches* on the corpora; both which benefit from network effects
 facilitated by lower entry barriers.
+
+# References
