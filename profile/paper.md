@@ -90,6 +90,7 @@ These timelines each contain one or more *component types*
 ![Excerpt of a TiLiA analysis on the desktop application.\label{fig:example}](tilia-desktop.png)
 
 Currently, there are six types of timelines:
+
 - **Audiowave timelines**, for displaying amplitude graphs
 - **Harmony timelines**, for displaying properly formatted chord symbols and roman numeral analysis
 - **Hierarchy timelines**, for representing hierarchical structures
