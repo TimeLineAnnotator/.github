@@ -23,9 +23,9 @@ authors:
 affiliations:
  - name: Universidade Federal do Rio de Janeiro, Brazil
    index: 1
- - name: Durham, England
+ - name: Independent Researcher, United Kingdom
    index: 2
- - name: KCL, England
+ - name: King's College London, United Kingdom
    index: 3
 date: 2025-02
 bibliography: paper.bib
