@@ -80,15 +80,14 @@ functionality. The [tilia-dcml](https://github.com/TimeLineAnnotator/dcml-to-til
 
 ## The desktop application
 
-The main part of TiLiA is a cross-platform *What-You-See-Is-What-You-Get* GUI, designed to feel intuitive to anyone who has worked with audiovisual editing software.
+The main part of TiLiA is a cross-platform *What-You-See-Is-What-You-Get* GUI (\autoref{fig:example}), designed to feel intuitive to anyone who has worked with audiovisual editing software.
 A TiLiA analysis consists of timelines, each containing annotations that can be aligned to an audio, video, YouTube stream or musical score. 
 Each *timeline type* is designed to support conventional formal annotations, with the affordance to work with a variety of other analytical styles. 
 These timelines each contain one or more *component types* 
 (e.g., markers for marker timelines), each with different 
 *properties* to convey information including comments, colour and labels.
 
-// Add an image of the UI here
-<!-- ![Excerpt of a TiLiA analysis.\label{fig:example}](figure.png) -->
+![Excerpt of a TiLiA analysis on the desktop application.\label{fig:example}](tilia-desktop.png)
 
 Currently, there are six types of timelines:
 - **Audiowave timelines**, for displaying amplitude graphs
